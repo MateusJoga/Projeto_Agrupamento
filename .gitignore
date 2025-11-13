@@ -1,0 +1,11 @@
+# Ignorar arquivos de dados
+dados/
+*.csv
+*.xls
+
+# Ignorar ambiente virtual do Python
+venv/
+__pycache__/
+
+# Ignorar arquivos de sistema
+.DS_Store
