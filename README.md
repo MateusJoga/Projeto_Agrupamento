@@ -19,13 +19,13 @@ O objetivo central é identificar **perfis sociais associados a sintomas depress
 ### 🔹 1. K-Means + PCA
 - Redução de dimensionalidade com **PCA** (8 componentes principais).
 - Agrupamento com **K-Means** (testes variando K=2 a K=15).
-- Teste do modelo usando **Coeficiente de Silhouette**.
+- Teste do modelo usando **Coeficiente de Silhouette** e **Método de cotovelo**.
 - Interpretação dos clusters com base em renda, escolaridade, exercício, etnia, idade etc.
 
 ### 🔹 2. Apriori (Regras de Associação)
 - Transformação completa das variáveis em formato transacional (One-Hot).
-- Suporte reduzido entre **1% e 10%**.
-- Métricas analisadas: Support, Confidence, Lift, Jaccard, Conviction.
+- Suporte reduzido em **2%**.
+- Métricas analisadas: Support, Confidence, Lift.
 - Filtro para regras relacionadas às categorias mais altas do PHQ-9.
 
 ---
